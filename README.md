@@ -2,7 +2,7 @@
 
 
 ## Basic Specs
----
+
 * [] Artifact is a GitHub repository (if you’re looking for a name, why not “shoelace” ;)
 * [] All CSS files are in a css/ directory.
 * [] Main page is called demo.html and includes an example of each component.
@@ -16,7 +16,6 @@
 
 ## Stage 1: Reverse Engineer Bootstrap Components
 
-___
 
 ### Typography
 
@@ -26,6 +25,8 @@ ___
 * [] Styles replicate Bootstrap’s Body copy
 * [] Styles replicate Bootstrap’s Addresses
 * [] Styles replicate Bootstrap’s Blockquotes
+
+___
 
 ### Components
 
