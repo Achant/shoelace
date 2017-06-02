@@ -21,10 +21,10 @@
 
 ___
 
-* [] Styles replicate Bootstrap’s Headings
-* [] Styles replicate Bootstrap’s Body copy
-* [] Styles replicate Bootstrap’s Addresses
-* [] Styles replicate Bootstrap’s Blockquotes
+* [ ] Styles replicate Bootstrap’s Headings
+* [ ] Styles replicate Bootstrap’s Body copy
+* [ ] Styles replicate Bootstrap’s Addresses
+* [ ] Styles replicate Bootstrap’s Blockquotes
 
 ___
 
