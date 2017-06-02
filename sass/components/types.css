@@ -1,0 +1,20 @@
+/* Internal*/
+<head>
+  <style type="text/css">
+    h1 {color:blue;}
+    h2 {color:red;}
+    p {color:green;}
+  </style>
+</head>
+
+/*External*/
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="/support/style.css" />
+
+</head>
+
+/*Inline*/
+
+<p style="color:red;font-size:12px">This is a paragraph!</p>

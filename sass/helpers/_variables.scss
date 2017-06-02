@@ -1,5 +1,67 @@
 // VARIABLES DECLARATIONS //
+//  BUTTONS //
 
+// Floating buttons
+$btn-floating-background: #bbb !default;
+$btn-floating-background-hover: #bbb !default;
+$btn-floating-background-floating-color: #aaa !default;
+$btn-floating-size: 10px !default;
+$btn-floating-large-size: 30px !default;
+$btn-floating-radius: 25% !default;
+
+body{
+  background: $btn-floating-background;
+  background-hover: $btn-floating-background-hover;
+  background-color: $btn-floating-background-floating-color;
+  size: $btn-floating-size;
+  size: $btn-floating-large-size;
+  radius: $btn-floating-radius;
+}
+
+// Disabled styles
+$btn-disabled-background: #FF7F50 !default;
+$btn-disabled-color: #E9967A !default;
+
+body{
+    background-color: $btn-disabled-background;
+    color: $btn-disabled-color;
+}
+// Flat buttons
+$btn-flat-color: #DAA520 !default;
+$btn-flat-disabled-color: darken(#777, 10%) !default;
+
+body{
+  color: $btn-flat-color;
+  color: $btn-flat-disabled-color;
+}
+
+// Large buttons
+$btn-large-icon-font-size: 2 !default;
+$btn-large-height: 20px * 1.5 !default;
+
+body{
+    size: $btn-large-icon-font-size;
+    height: $btn-large-height;
+}
+
+// Shared styles
+$btn-border: none !default;
+$btn-background-focus: darken(#ccc, 4%) !default;
+$btn-font-size: 10 !default;
+$btn-icon-font-size: 4 !default;
+$btn-height: 20px !default;
+$btn-padding: 0 2rem !default;
+$btn-radius: 1.5px !default;
+
+body{
+    border: $btn-border;
+    background: $btn-background-focus;
+    size: $btn-font-size;
+    font-size: $btn-icon-font-size;
+    height: $btn-height;
+    padding: $btn-padding;
+    radius: $btn-radius;
+}
 // Grid
 // ==========================================================================
 
