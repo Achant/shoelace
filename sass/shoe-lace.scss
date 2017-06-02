@@ -1,17 +1,16 @@
 // SHOE-LACE SCSS //
-@import "helpers/variables";
-@import "helpers/functions";
-@import "helpers/mixins";
+@import "helpers/_variables";
+@import "helpers/_functions";
+@import "helpers/_mixins";
 
 // COMPONENTS
 @import "components/_navbar";
-@import "components/_form";
+@import "components/_buttons";
+@import "components/_badges";
+@import "components/_breadcrumbs";
+@import "components/_cards";
+@import "components/_forms";
 
-//COMPONENTS
-@@import "components/bottons";
-@@import "components/type";
-@@import "components/collections";
-@@import "components/badges";
 
 // UTILITY / TEST CLASSES //
 .finishedSec {
@@ -33,12 +32,15 @@
 
 
 
+
+
 //  FORMS //
 
 
 
 
-//  BUTTONS /
+//  BUTTONS //
+
 
 
 
