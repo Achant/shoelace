@@ -1,63 +1,117 @@
-//  BUTTONS //
-
-// Floating buttons
-$btn-floating-background: #bbb !default;
-$btn-floating-background-hover: #bbb !default;
-$btn-floating-background-floating-color: #aaa !default;
-$btn-floating-size: 10px !default;
-$btn-floating-large-size: 30px !default;
-$btn-floating-radius: 25% !default;
-
-body{
-  background: $btn-floating-background;
-  background-hover: $btn-floating-background-hover;
-  background-color: $btn-floating-background-floating-color;
-  size: $btn-floating-size;
-  size: $btn-floating-large-size;
-  radius: $btn-floating-radius;
+/*Flat Button*/
+/*Border button*/
+/*Gradient Button*/
+/*Press Button*/
+p1 {
+	font-size: 45px;
+	color: blue;
 }
-
-// Disabled styles
-$btn-disabled-background: #FF7F50 !default;
-$btn-disabled-color: #E9967A !default;
-
-body{
-    background-color: $btn-disabled-background;
-    color: $btn-disabled-color;
+button {
+	display: inline-block;
+	margin: 0 8px 0 0;
+	padding: 20px 40px;
+	font-size: 48px;
+	font-family: "roboto",serif;
+	line-height: 1.2;
+	appearance: none;
+	box-shadow: none;
+	border-radius: 0;
+	&:focus {
+		outline: none;
+	}
 }
-// Flat buttons
-$btn-flat-color: #DAA520 !default;
-$btn-flat-disabled-color: darken(#777, 10%) !default;
-
-body{
-  color: $btn-flat-color;
-  color: $btn-flat-disabled-color;
+section.flat {
+	button {
+		color: black;
+		background-color: #FF7F50;
+		text-shadow: -2px 2px yellow;
+		border: none;
+		&:hover {
+			background-color: #F08080;
+			text-shadow: -2px 2px yellow;
+		}
+		&:active {
+			background-color: #A0522D;
+			text-shadow: -2px 2px yellow;
+		}
+	}
+	button.hover {
+		background-color: #F08080;
+		text-shadow: -2px 2px yellow;
+	}
+	button.active {
+		background-color: #A0522D;
+		text-shadow: -2px 2px yellow;
+	}
 }
-
-// Large buttons
-$btn-large-icon-font-size: 2 !default;
-$btn-large-height: 20px * 1.5 !default;
-
-body{
-    size: $btn-large-icon-font-size;
-    height: $btn-large-height;
+section.border {
+	button {
+		color: red;
+		background: rgba(0,0,0,0);
+		border: solid 6px #FF7F50;
+		&:hover {
+			border-color: #F08080;
+			color: blue;
+		}
+		&:active {
+			border-color: #A0522D;
+			color: #A0522D;
+		}
+	}
+	button.hover {
+		border-color: #F08080;
+		color: blue;
+	}
+	button.active {
+		border-color: #A0522D;
+		color: #A0522D;
+	}
 }
-
-// Shared styles
-$btn-border: none !default;
-$btn-background-focus: darken(#ccc, 4%) !default;
-$btn-font-size: 10 !default;
-$btn-icon-font-size: 4 !default;
-$btn-height: 20px !default;
-$btn-padding: 0 2rem !default;
-$btn-radius: 1.5px !default;
-
-body{
-    border: $btn-border;
-    background: $btn-background-focus;
-    size: $btn-font-size;
-    font-size: $btn-icon-font-size;
-    height: $btn-height;
-    padding: $btn-padding;
-    radius: $btn-radius; 
+section.gradient {
+	button {
+		color: black;
+		text-shadow: -2px 2px #F08080;
+		background-color: #ff9664;
+		background-image: linear-gradient(top, #FF7F50, #F08080);
+		box-shadow: inset 0 0 0 2px #A0522D;
+		border: none;
+		border-radius: 16px;
+		&:hover {
+			box-shadow: inset 0 0 0 2px #A0522D,0 6px 16px #193047;
+		}
+		&:active {
+			box-shadow: inset 0 0 0 2px #A0522D,inset 0 6px 30px #193047;
+		}
+	}
+	button.hover {
+		box-shadow: inset 0 0 0 2px #A0522D,0 6px 16px #193047;
+	}
+	button.active {
+		box-shadow: inset 0 0 0 2px #A0522D,inset 0 6px 30px #193047;
+	}
+}
+section.press {
+	button {
+		color: black;
+		background-color: #FF7F50;
+		border: none;
+		border-radius: 16px;
+		box-shadow: 0 10px #A0522D;
+		&:hover {
+			background-color: #BDB76B;
+		}
+		&:active {
+			background-color: #BDB76B;
+			box-shadow: 0 6px #A0522D;
+			transform: translateY(6px);
+		}
+	}
+	button.hover {
+		background-color: #BDB76B;
+	}
+	button.active {
+		background-color: #BDB76B;
+		box-shadow: 0 6px #A0522D;
+		transform: translateY(6px);
+	}
 }
