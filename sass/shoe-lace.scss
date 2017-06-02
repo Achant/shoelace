@@ -5,25 +5,26 @@
 
 // COMPONENTS
 @import "components/_navbar";
+@import "components/_form";
 
 
 // UTILITY / TEST CLASSES //
-.finishedSec{
+.finishedSec {
   border: 1px solid green;
+  margin: .1em;
 }
 
 .dashB {
   border: 1px dashed black;
-  margin: 1em;
+  margin: 2%;
   text-align: center;
+
 }
 .solidB {
   border: 1px solid black;
   margin: 1em;
   text-align: center;
 }
-
-
 
 
 

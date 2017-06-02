@@ -1,8 +1,7 @@
 .nav-row {
   display: flex;
   flex-direction: row;
-  margin-top: 1em;
-  margin-bottom: .5em;
+  margin-top: 1em .5em 1.5em 1.5em;
   padding: 1%;
   border: 2px solid blue;
   border-radius: 5px;
@@ -35,12 +34,20 @@
       font-size: 16pt;
       color: red; }
 
+.form-bx {
+  margin: 3em; }
+  .form-bx form {
+    display: inline; }
+    .form-bx form div {
+      color: red; }
+
 .finishedSec {
-  border: 1px solid green; }
+  border: 1px solid green;
+  margin: .1em; }
 
 .dashB {
   border: 1px dashed black;
-  margin: 1em;
+  margin: 2%;
   text-align: center; }
 
 .solidB {
