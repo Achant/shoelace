@@ -1,19 +1,42 @@
-.test-border {
-  border: 1px dashed black; }
+/*
+Error: Invalid CSS after "@": expected identifier, was "@import "helper..."
+        on line 2 of sass/shoe-lace.scss
 
-.nav-border {
-  border: 1px solid red; }
+1: // SHOE-LACE SCSS //
+2: @@import "helpers/variables";
+3: @@import "helpers/functions";
+4: @@import "helpers/mixins";
+5: 
+6: //COMPONENTS
+7: @@import "components/bottons";
 
-.sect-box {
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 95%; }
-
-@media only screen and (min-width: 601px) {
-  .sect-box {
-    width: 85%; } }
-@media only screen and (min-width: 993px) {
-  .sect-box {
-    width: 70%; } }
-
-/*# sourceMappingURL=shoe-lace.css.map */
+Backtrace:
+sass/shoe-lace.scss:2
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1207:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1137:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1132:in `tok!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:194:in `directive'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:684:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:674:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:41:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/engine.rb:406:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@\": expected identifier, was \"@import \"helper...\"\A         on line 2 of sass/shoe-lace.scss\A \A 1: // SHOE-LACE SCSS //\A 2: @@import \"helpers/variables\";\A 3: @@import \"helpers/functions\";\A 4: @@import \"helpers/mixins\";\A 5: \A 6: //COMPONENTS\A 7: @@import \"components/bottons\";"; }

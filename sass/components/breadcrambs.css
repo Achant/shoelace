@@ -1,0 +1,27 @@
+/* Style the list */
+/* Display list items side by side */
+/* Add a slash symbol (>) before/behind each list item */
+/* Add a color to all links inside the list */
+/* Add a color on mouse-over */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: orange;
+  font-family: "Avenir", Gotham, Serif;
+  font-style: oblique;
+  font-size: 25px;
+  font-weight: bold; }
+  ul.breadcrumb li {
+    display: inline; }
+    ul.breadcrumb li a {
+      color: #0275d8;
+      text-decoration: blink; }
+      ul.breadcrumb li a:hover {
+        color: #008000;
+        text-decoration: overline underline; }
+  ul.breadcrumb li + li:before {
+    padding: 10px;
+    color: #FF0000;
+    content: ">"; }
+
+/*# sourceMappingURL=breadcrambs.css.map */
