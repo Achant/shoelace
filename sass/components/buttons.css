@@ -1,0 +1,96 @@
+p1{
+  font-size: 45px;
+    color: blue;
+}
+button {
+  display: inline-block;
+  margin: 0 8px 0 0;
+  padding: 20px 40px;
+  font-size: 48px;
+  font-family: "roboto",serif;
+  line-height: 1.2;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+button:focus {
+  outline: none
+}
+
+/*Flat Button*/
+section.flat button {
+  color: black;
+  background-color: #FF7F50;
+  text-shadow: -2px 2px yellow;
+  border: none;
+}
+section.flat button:hover,
+section.flat button.hover {
+  background-color: #F08080;
+  text-shadow: -2px 2px yellow;
+}
+section.flat button:active,
+section.flat button.active {
+  background-color: #A0522D;
+  text-shadow: -2px 2px yellow;
+}
+
+/*Border button*/
+section.border button {
+  color: red;
+  background: rgba(0,0,0,0);
+  border: solid 6px #FF7F50;
+}
+section.border button:hover,
+section.border button.hover {
+  border-color: #F08080;
+  color: blue;
+}
+section.border button:active,
+section.border button.active {
+  border-color: #A0522D;
+  color: #A0522D;
+}
+
+/*Gradient Button*/
+section.gradient button {
+  color: black;
+  text-shadow: -2px 2px #F08080;
+  background-color: #ff9664;
+  background-image: linear-gradient(top, #FF7F50, #F08080);
+  box-shadow: inset 0 0 0 2px #A0522D;
+  border: none;
+  border-radius: 16px;
+}
+
+section.gradient button:hover,
+section.gradient button.hover {
+  box-shadow: inset 0 0 0 2px #A0522D,0 6px 16px #193047;
+}
+
+section.gradient button:active,
+section.gradient button.active {
+  box-shadow: inset 0 0 0 2px #A0522D,inset 0 6px 30px #193047;
+}
+
+/*Press Button*/
+section.press button {
+  color: black;
+  background-color: #FF7F50;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 10px #A0522D;
+}
+
+section.press button:hover,
+section.press button.hover {
+  background-color: #BDB76B
+}
+
+section.press button:active,
+section.press button.active {
+  background-color: #BDB76B;
+  box-shadow: 0 6px #A0522D;
+  transform: translateY(6px);
+}
