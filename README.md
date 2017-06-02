@@ -3,16 +3,16 @@
 
 ## Basic Specs
 
-* [] Artifact is a GitHub repository (if you’re looking for a name, why not “shoelace” ;)
-* [] All CSS files are in a css/ directory.
-* [] Main page is called demo.html and includes an example of each component.
-* [] No external CSS libraries/modules are used.
-* [] Everything is written from scratch.
-* [] Variables, functions, files, etc. have appropriate and meaningful names.
-* [] HTML, CSS, and JS files are well formatted with proper spacing and indentation.
-* [] All major features are added via pull requests with a clear description and concise commit messages.
-* [] Every pull request has been reviewed by at least one other person.
-* [] The artifact produced is properly licensed, preferably with the MIT license.
+* [x] Artifact is a GitHub repository (if you’re looking for a name, why not “shoelace” ;)
+* [x] All CSS files are in a css/ directory.
+* [ ] Main page is called demo.html and includes an example of each component.
+* [x] No external CSS libraries/modules are used.
+* [x] Everything is written from scratch.
+* [x] Variables, functions, files, etc. have appropriate and meaningful names.
+* [ ] HTML, CSS, and JS files are well formatted with proper spacing and indentation.
+* [x] All major features are added via pull requests with a clear description and concise commit messages.
+* [x] Every pull request has been reviewed by at least one other person.
+* [x] The artifact produced is properly licensed, preferably with the MIT license.
 
 ## Stage 1: Reverse Engineer Bootstrap Components
 
@@ -32,9 +32,9 @@ ___
 
 ___
 
-[] Each component is featured on the demo HTML page demo.html under its own header along with the code used to generate it (for a simple example of what this could look like, see https://purecss.io/buttons/)
-[] Styles replicate Bootstrap’s buttons
-[] Components include replicas of Bootstrap’s:
+[ ] Each component is featured on the demo HTML page demo.html under its own header along with the code used to generate it (for a simple example of what this could look like, see https://purecss.io/buttons/)
+[ ] Styles replicate Bootstrap’s buttons
+[x] Components include replicas of Bootstrap’s >> We did Materialize:
 
 * Button Groups: Toolbar
 * Breadcrumbs
