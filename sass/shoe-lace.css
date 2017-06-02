@@ -1,3 +1,43 @@
+.nav-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+  margin-bottom: .5em;
+  padding: 1%;
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding: 1em; }
+  .nav-row aside {
+    float: left;
+    margin-left: 2%;
+    margin-right: 23%; }
+  .nav-row div {
+    width: 16.66667%;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    border: 1px dotted blue;
+    border-radius: 5px; }
+    @media only screen and (min-width: 768px) {
+      .nav-row div {
+        width: 16.66667%;
+        vertical-align: top; } }
+    .nav-row div a {
+      font-size: 16pt;
+      color: red; }
+
+.finishedSec {
+  border: 1px solid green; }
+
 .dashB {
   border: 1px dashed black;
   margin: 1em;
@@ -7,13 +47,5 @@
   border: 1px solid black;
   margin: 1em;
   text-align: center; }
-
-.flx-row {
-  display: flex;
-  flex-direction: row; }
-
-.flx-col {
-  display: flex;
-  flex-direction: column; }
 
 /*# sourceMappingURL=shoe-lace.css.map */

@@ -3,8 +3,15 @@
 @import "helpers/functions";
 @import "helpers/mixins";
 
+// COMPONENTS
+@import "components/_navbar";
+
 
 // UTILITY / TEST CLASSES //
+.finishedSec{
+  border: 1px solid green;
+}
+
 .dashB {
   border: 1px dashed black;
   margin: 1em;
@@ -16,20 +23,6 @@
   text-align: center;
 }
 
-//  GRID & NAV //
-
-.section {
-
-}
-
-.flx-row {
-  display: flex;
-  flex-direction: row;
-}
-.flx-col {
-  display: flex;
-  flex-direction: column;
-}
 
 
 
